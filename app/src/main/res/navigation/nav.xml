@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/firstStepIntroFragment">
+
+    <fragment
+        android:id="@+id/firstStepIntroFragment"
+        android:name="com.example.materialtransition.intro.step.FirstStepIntroFragment"
+        android:label="FirstStepIntroFragment">
+        <action
+            android:id="@+id/action_firstStepIntroFragment_to_secondStepIntroFragment"
+            app:destination="@id/secondStepIntroFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondStepIntroFragment"
+        android:name="com.example.materialtransition.intro.step.SecondStepIntroFragment"
+        android:label="SecondStepIntroFragment" />
+
+</navigation>

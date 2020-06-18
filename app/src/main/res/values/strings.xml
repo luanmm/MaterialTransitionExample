@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Material Transition Example</string>
+    <string name="next_button_text">Next</string>
+</resources>
